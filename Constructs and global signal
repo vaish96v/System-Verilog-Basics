@@ -1,0 +1,24 @@
+Types of signals in every design:
+
+1. Global signal :  clk and rst
+2. Data signals :  rdata, wdata
+3. Control signal:  enables, switches
+
+Testbench does not have any input/output specified (only module tb();)
+
+Initial block: executes once at start of simulation at time 0
+Uses of initial:
+1. for initializing dump
+2. Initialize variables
+3. monitor
+4. Randomization
+5. Stop sim by end of a time
+
+Always block: 3 types always_comb, always_ff, always_latch
+Not necessary to define in verification.
+Uses of Always:
+1. Generating clock (without sensitivity list. Always have a finish)
+
+`timescale 1ns/1ps (unit/precision)
+
+For clock gen, precision, duty cycle, phase, period, freq are important
