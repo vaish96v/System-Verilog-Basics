@@ -1,0 +1,11 @@
+Types of datatypes:
+1. Hardware: reg (procedural), wire(continuous), logic (both)
+2. Variable: 
+   Fixed 2 state 0/1 : signed - byte, int, long int etc, unsigned - bit OR 4 state 0/1/x/z - integer, 
+   Float: real
+3. Simulation: time and realtime
+
+2 state datatype: initial value is 0 and 4 state is X
+
+%0d print 1 value
+%0p all elements in array
